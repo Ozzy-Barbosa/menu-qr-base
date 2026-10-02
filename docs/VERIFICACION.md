@@ -23,7 +23,15 @@ Las capturas y reportes de Playwright se guardan localmente en `evidence/` y se 
 
 La comprobación de reutilización usa los datos de `examples/cafe/`, compila una marca, carta y subruta diferentes, y restaura los archivos originales. Su script verifica el nuevo contenido y la conservación de precios con decimales.
 
-El estado definitivo del despliegue se registra al terminar la revisión pública. Consulta también el historial de Actions en el repositorio.
+La prueba de la cafetería terminó correctamente: otra marca, otro tema, otra subruta, tres productos y un precio con decimales. Nami y su compilación quedaron restaurados. La última compilación devolvió cero errores, cero advertencias y cero sugerencias de tipos.
+
+**Publicación confirmada:** [Nami en GitHub Pages](https://ozzy-barbosa.github.io/menu-qr-base/). [Ejecución de publicación completada correctamente](https://github.com/Ozzy-Barbosa/menu-qr-base/actions/runs/36957009558). Commit del sitio desplegado: `2706a3717719801d0eec048bc39d72e60ad3f8d8`.
+
+Se repitieron los seis recorridos de navegador contra la URL pública: seis aprobados. No se detectaron errores de consola ni respuestas fallidas en la revisión de recursos de la página. La auditoría axe no reportó infracciones dentro de las reglas y páginas comprobadas.
+
+El menú público contiene exactamente las mismas 30 fichas y seis categorías que los JSON locales. Se descargó el PNG desde la página pública y jsQR decodificó exactamente `https://ozzy-barbosa.github.io/menu-qr-base/`.
+
+La huella SHA-256 del HTML público coincide con la exportación estática local: `45bfae02e1297d884411bfe85b8964bcfa100e7f523e06b086c5c09c9e3ca31c`. [Registro de comparación pública](evidence/public-verification.json). Estas comprobaciones documentan esta versión; cambios posteriores requieren ejecutar de nuevo las pruebas pertinentes.
 
 ## Límites prácticos
 

@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-02T02:46:59.468Z",
+  "url": "https://ozzy-barbosa.github.io/menu-qr-base/",
+  "httpStatus": 200,
+  "products": 30,
+  "categories": 6,
+  "publicMenuMatchesSource": true,
+  "qrDownloadedAndDecoded": "https://ozzy-barbosa.github.io/menu-qr-base/",
+  "publicHTMLSha256": "45bfae02e1297d884411bfe85b8964bcfa100e7f523e06b086c5c09c9e3ca31c",
+  "localHTMLSha256": "45bfae02e1297d884411bfe85b8964bcfa100e7f523e06b086c5c09c9e3ca31c",
+  "exactHTMLMatch": true,
+  "deploymentRun": "https://github.com/Ozzy-Barbosa/menu-qr-base/actions/runs/36957009558",
+  "sourceCommit": "2706a3717719801d0eec048bc39d72e60ad3f8d8"
+}
