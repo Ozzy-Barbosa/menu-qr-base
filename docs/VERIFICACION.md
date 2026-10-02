@@ -43,6 +43,8 @@ La huella SHA-256 del HTML público coincide con la exportación estática local
 - Miniaturas de aproximadamente 6 a 14 KB, con carga diferida. Imágenes de las fichas de aproximadamente 28 a 55 KB, solicitadas al abrir cada ficha (las tres destacadas también aparecen en la portada).
 - Prompts y asociación entre producto y archivo documentados en `image-prompts-products.json`.
 
+**Actualización publicada y comprobada el 2 de octubre de 2026 a las 03:45 UTC (1 de octubre, hora local):** [ejecución satisfactoria en GitHub Pages](https://github.com/Ozzy-Barbosa/menu-qr-base/actions/runs/36961268094), commit `9612b79682312dc1cbcd04d390f2e2ac62637bcd`. Los siete recorridos de navegador también aprobaron contra la URL pública. Las 30 miniaturas y 30 fotografías de fichas respondieron HTTP 200 como WebP. La carta pública coincide con los datos locales y su HTML tiene la misma huella SHA-256 que la compilación revisada: `f4cdf77f22945c9fea61899a70f01f3743f0ea6ef86e1b655a0d3bd1b414a588`. Se volvió a decodificar el QR público con el mismo destino. [Registro de las imágenes publicadas](evidence/public-photos-verification.json).
+
 ## Límites prácticos de la verificación
 
 - Pruebas automatizadas en Chromium; no se verificó físicamente Safari/iPhone o Android.

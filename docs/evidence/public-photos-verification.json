@@ -1,0 +1,319 @@
+{
+  "checkedAt": "2026-10-02T03:45:00.312Z",
+  "url": "https://ozzy-barbosa.github.io/menu-qr-base/",
+  "httpStatus": 200,
+  "products": 30,
+  "categories": 6,
+  "productsWithPhotos": 30,
+  "thumbnails": 30,
+  "publicImagesChecked": 60,
+  "publicMenuMatchesSource": true,
+  "qrDownloadedAndDecoded": "https://ozzy-barbosa.github.io/menu-qr-base/",
+  "publicHTMLSha256": "f4cdf77f22945c9fea61899a70f01f3743f0ea6ef86e1b655a0d3bd1b414a588",
+  "localHTMLSha256": "f4cdf77f22945c9fea61899a70f01f3743f0ea6ef86e1b655a0d3bd1b414a588",
+  "exactHTMLMatch": true,
+  "deploymentRun": "https://github.com/Ozzy-Barbosa/menu-qr-base/actions/runs/36961268094",
+  "sourceCommit": "9612b79682312dc1cbcd04d390f2e2ac62637bcd",
+  "images": [
+    {
+      "src": "/menu-qr-base/_astro/edamame.CKJTeFAs_24XXas.webp",
+      "status": 200,
+      "bytes": 12364
+    },
+    {
+      "src": "/menu-qr-base/_astro/gyozas.DmTRQUTl_1ox1qA.webp",
+      "status": 200,
+      "bytes": 14540
+    },
+    {
+      "src": "/menu-qr-base/_astro/sunomono.CGbTd4ev_ZfUFIm.webp",
+      "status": 200,
+      "bytes": 10990
+    },
+    {
+      "src": "/menu-qr-base/_astro/tempura.BP1TQMY-_PdJTs.webp",
+      "status": 200,
+      "bytes": 12318
+    },
+    {
+      "src": "/menu-qr-base/_astro/miso.Cdsb8lAN_ZsOQ9z.webp",
+      "status": 200,
+      "bytes": 11072
+    },
+    {
+      "src": "/menu-qr-base/_astro/nami-roll.CnwUVq3s_Z91Qnb.webp",
+      "status": 200,
+      "bytes": 14142
+    },
+    {
+      "src": "/menu-qr-base/_astro/california.uuC1NBDg_ZBvGRj.webp",
+      "status": 200,
+      "bytes": 10488
+    },
+    {
+      "src": "/menu-qr-base/_astro/spicy-tuna.DWirseY7_ZVJN9m.webp",
+      "status": 200,
+      "bytes": 12198
+    },
+    {
+      "src": "/menu-qr-base/_astro/ebi-crunch.BCFDhXxy_1Bdb3q.webp",
+      "status": 200,
+      "bytes": 12188
+    },
+    {
+      "src": "/menu-qr-base/_astro/verde.Dfsc-sWV_Z1Usbyw.webp",
+      "status": 200,
+      "bytes": 12788
+    },
+    {
+      "src": "/menu-qr-base/_astro/philadelphia.Bw4xDthk_Z2wNUwJ.webp",
+      "status": 200,
+      "bytes": 11496
+    },
+    {
+      "src": "/menu-qr-base/_astro/mango-ebi.BPtbE97d_RRLm8.webp",
+      "status": 200,
+      "bytes": 12738
+    },
+    {
+      "src": "/menu-qr-base/_astro/nigiri-salmon.B_wd3zMT_Z1QWYiD.webp",
+      "status": 200,
+      "bytes": 7630
+    },
+    {
+      "src": "/menu-qr-base/_astro/nigiri-atun.BXRKopUG_Z1WtoX5.webp",
+      "status": 200,
+      "bytes": 9362
+    },
+    {
+      "src": "/menu-qr-base/_astro/nigiri-ebi.D_9LRocY_iVPUN.webp",
+      "status": 200,
+      "bytes": 10094
+    },
+    {
+      "src": "/menu-qr-base/_astro/sashimi.CIVzsMXm_JB34N.webp",
+      "status": 200,
+      "bytes": 9712
+    },
+    {
+      "src": "/menu-qr-base/_astro/yakimeshi-vegetal.Bzfhb7IB_ZcKLhK.webp",
+      "status": 200,
+      "bytes": 13812
+    },
+    {
+      "src": "/menu-qr-base/_astro/yakimeshi-pollo.oGADhPPr_2cGWOv.webp",
+      "status": 200,
+      "bytes": 12928
+    },
+    {
+      "src": "/menu-qr-base/_astro/teriyaki.DFJrmnTM_Z1matDM.webp",
+      "status": 200,
+      "bytes": 14186
+    },
+    {
+      "src": "/menu-qr-base/_astro/udon.CELmwHjf_14vlzT.webp",
+      "status": 200,
+      "bytes": 10892
+    },
+    {
+      "src": "/menu-qr-base/_astro/te-jazmin.B-z3yGOn_23dz0s.webp",
+      "status": 200,
+      "bytes": 10248
+    },
+    {
+      "src": "/menu-qr-base/_astro/limonada.BhbvLIYN_1WLsWO.webp",
+      "status": 200,
+      "bytes": 8328
+    },
+    {
+      "src": "/menu-qr-base/_astro/matcha-latte.CMbiliw5_2seJhA.webp",
+      "status": 200,
+      "bytes": 9292
+    },
+    {
+      "src": "/menu-qr-base/_astro/calpico.s_8jeYF-_21C9gr.webp",
+      "status": 200,
+      "bytes": 6720
+    },
+    {
+      "src": "/menu-qr-base/_astro/agua.ruA37Hwc_1vcmha.webp",
+      "status": 200,
+      "bytes": 8546
+    },
+    {
+      "src": "/menu-qr-base/_astro/refresco.BA87wO9z_20cKDQ.webp",
+      "status": 200,
+      "bytes": 12066
+    },
+    {
+      "src": "/menu-qr-base/_astro/matcha.BD_ZWcpw_2jH7MC.webp",
+      "status": 200,
+      "bytes": 9626
+    },
+    {
+      "src": "/menu-qr-base/_astro/mochi.D7KKtuzZ_Z2vfQit.webp",
+      "status": 200,
+      "bytes": 7840
+    },
+    {
+      "src": "/menu-qr-base/_astro/helado.C3Rl2DBN_Z29Wdvj.webp",
+      "status": 200,
+      "bytes": 11480
+    },
+    {
+      "src": "/menu-qr-base/_astro/platano.eJ_x3adV_1bAvK1.webp",
+      "status": 200,
+      "bytes": 9978
+    },
+    {
+      "src": "/menu-qr-base/_astro/edamame.CKJTeFAs_Z1jc6Lp.webp",
+      "status": 200,
+      "bytes": 44040
+    },
+    {
+      "src": "/menu-qr-base/_astro/gyozas.DmTRQUTl_Z1YivHG.webp",
+      "status": 200,
+      "bytes": 52110
+    },
+    {
+      "src": "/menu-qr-base/_astro/sunomono.CGbTd4ev_1fDHrp.webp",
+      "status": 200,
+      "bytes": 38416
+    },
+    {
+      "src": "/menu-qr-base/_astro/tempura.BP1TQMY-_2weNLw.webp",
+      "status": 200,
+      "bytes": 44358
+    },
+    {
+      "src": "/menu-qr-base/_astro/miso.Cdsb8lAN_Z2nBbvu.webp",
+      "status": 200,
+      "bytes": 39200
+    },
+    {
+      "src": "/menu-qr-base/_astro/nami-roll.CnwUVq3s_19c07n.webp",
+      "status": 200,
+      "bytes": 49308
+    },
+    {
+      "src": "/menu-qr-base/_astro/california.uuC1NBDg_Z112iuq.webp",
+      "status": 200,
+      "bytes": 36268
+    },
+    {
+      "src": "/menu-qr-base/_astro/spicy-tuna.DWirseY7_Z1lgoLt.webp",
+      "status": 200,
+      "bytes": 41082
+    },
+    {
+      "src": "/menu-qr-base/_astro/ebi-crunch.BCFDhXxy_1cGzqj.webp",
+      "status": 200,
+      "bytes": 44786
+    },
+    {
+      "src": "/menu-qr-base/_astro/verde.Dfsc-sWV_Ze5UtG.webp",
+      "status": 200,
+      "bytes": 44858
+    },
+    {
+      "src": "/menu-qr-base/_astro/philadelphia.Bw4xDthk_Z1LwU9n.webp",
+      "status": 200,
+      "bytes": 39344
+    },
+    {
+      "src": "/menu-qr-base/_astro/mango-ebi.BPtbE97d_2b6CQG.webp",
+      "status": 200,
+      "bytes": 46130
+    },
+    {
+      "src": "/menu-qr-base/_astro/nigiri-salmon.B_wd3zMT_1jTuFS.webp",
+      "status": 200,
+      "bytes": 30848
+    },
+    {
+      "src": "/menu-qr-base/_astro/nigiri-atun.BXRKopUG_Q5hvf.webp",
+      "status": 200,
+      "bytes": 36084
+    },
+    {
+      "src": "/menu-qr-base/_astro/nigiri-ebi.D_9LRocY_Z5yJGj.webp",
+      "status": 200,
+      "bytes": 38662
+    },
+    {
+      "src": "/menu-qr-base/_astro/sashimi.CIVzsMXm_2qC6VR.webp",
+      "status": 200,
+      "bytes": 38050
+    },
+    {
+      "src": "/menu-qr-base/_astro/yakimeshi-vegetal.Bzfhb7IB_2gQpXa.webp",
+      "status": 200,
+      "bytes": 44692
+    },
+    {
+      "src": "/menu-qr-base/_astro/yakimeshi-pollo.oGADhPPr_1n99wR.webp",
+      "status": 200,
+      "bytes": 42224
+    },
+    {
+      "src": "/menu-qr-base/_astro/teriyaki.DFJrmnTM_9oTvY.webp",
+      "status": 200,
+      "bytes": 48244
+    },
+    {
+      "src": "/menu-qr-base/_astro/udon.CELmwHjf_ZPfXL1.webp",
+      "status": 200,
+      "bytes": 37674
+    },
+    {
+      "src": "/menu-qr-base/_astro/te-jazmin.B-z3yGOn_Z1IJHiU.webp",
+      "status": 200,
+      "bytes": 38404
+    },
+    {
+      "src": "/menu-qr-base/_astro/limonada.BhbvLIYN_Z1APgFl.webp",
+      "status": 200,
+      "bytes": 32692
+    },
+    {
+      "src": "/menu-qr-base/_astro/matcha-latte.CMbiliw5_Z1QFo8Y.webp",
+      "status": 200,
+      "bytes": 34870
+    },
+    {
+      "src": "/menu-qr-base/_astro/calpico.s_8jeYF-_Z1mxUFq.webp",
+      "status": 200,
+      "bytes": 28828
+    },
+    {
+      "src": "/menu-qr-base/_astro/agua.ruA37Hwc_ZoyX4K.webp",
+      "status": 200,
+      "bytes": 32256
+    },
+    {
+      "src": "/menu-qr-base/_astro/refresco.BA87wO9z_Z1yoXYj.webp",
+      "status": 200,
+      "bytes": 44400
+    },
+    {
+      "src": "/menu-qr-base/_astro/matcha.BD_ZWcpw_Z148plE.webp",
+      "status": 200,
+      "bytes": 36598
+    },
+    {
+      "src": "/menu-qr-base/_astro/mochi.D7KKtuzZ_ZNSAdD.webp",
+      "status": 200,
+      "bytes": 33032
+    },
+    {
+      "src": "/menu-qr-base/_astro/helado.C3Rl2DBN_ZsABPE.webp",
+      "status": 200,
+      "bytes": 41932
+    },
+    {
+      "src": "/menu-qr-base/_astro/platano.eJ_x3adV_Z2czybQ.webp",
+      "status": 200,
+      "bytes": 37984
+    }
+  ]
+}
