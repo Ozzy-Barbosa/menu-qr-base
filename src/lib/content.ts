@@ -13,7 +13,9 @@ export const money = (price: number) => new Intl.NumberFormat(business.locale, {
 export const path = (relative = '') => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${relative.replace(/^\//, '')}`;
 const originals = import.meta.glob<{ default: ImageMetadata }>('../assets/*.{png,jpg,jpeg,webp,avif}', { eager: true });
 export const photos = Object.fromEntries(await Promise.all(Object.entries(originals).map(async ([file, module]) => {
-  const large = await getImage({ src: module.default, width: 1200, format: 'webp', quality: 82 });
+  const key = `images/${file.split('/').pop()}`;
   const small = await getImage({ src: module.default, width: 600, format: 'webp', quality: 80 });
-  return [`images/${file.split('/').pop()}`, { large: large.src, small: small.src }];
+  const thumbnail = await getImage({ src: module.default, width: 240, height: 240, fit: 'cover', format: 'webp', quality: 78 });
+  const large = key === business.hero.image ? await getImage({ src: module.default, width: 1200, format: 'webp', quality: 82 }) : small;
+  return [key, { large: large.src, small: small.src, thumbnail: thumbnail.src }];
 })));

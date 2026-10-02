@@ -62,7 +62,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/edamame.png",
+      "imageAlt": "Imagen ilustrativa de edamame al limón"
     },
     {
       "id": "gyozas",
@@ -112,7 +114,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/sunomono.png",
+      "imageAlt": "Imagen ilustrativa de sunomono"
     },
     {
       "id": "tempura",
@@ -137,7 +141,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/tempura.png",
+      "imageAlt": "Imagen ilustrativa de tempura de verduras"
     },
     {
       "id": "miso",
@@ -160,7 +166,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/miso.png",
+      "imageAlt": "Imagen ilustrativa de sopa miso"
     },
     {
       "id": "nami-roll",
@@ -216,7 +224,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/california.png",
+      "imageAlt": "Imagen ilustrativa de california"
     },
     {
       "id": "spicy-tuna",
@@ -242,7 +252,9 @@
       "vegetarian": false,
       "spicy": 2,
       "raw": true,
-      "available": true
+      "available": true,
+      "image": "images/spicy-tuna.png",
+      "imageAlt": "Imagen ilustrativa de spicy tuna"
     },
     {
       "id": "ebi-crunch",
@@ -272,7 +284,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/ebi-crunch.png",
+      "imageAlt": "Imagen ilustrativa de ebi crunch"
     },
     {
       "id": "verde",
@@ -295,7 +309,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/verde.png",
+      "imageAlt": "Imagen ilustrativa de jardín verde"
     },
     {
       "id": "philadelphia",
@@ -320,7 +336,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": true,
-      "available": true
+      "available": true,
+      "image": "images/philadelphia.png",
+      "imageAlt": "Imagen ilustrativa de philadelphia"
     },
     {
       "id": "mango-ebi",
@@ -346,7 +364,9 @@
       "vegetarian": false,
       "spicy": 1,
       "raw": false,
-      "available": false
+      "available": false,
+      "image": "images/mango-ebi.png",
+      "imageAlt": "Imagen ilustrativa de mango & ebi"
     },
     {
       "id": "nigiri-salmon",
@@ -366,7 +386,9 @@
       "vegetarian": false,
       "spicy": 1,
       "raw": true,
-      "available": true
+      "available": true,
+      "image": "images/nigiri-salmon.png",
+      "imageAlt": "Imagen ilustrativa de nigiri de salmón"
     },
     {
       "id": "nigiri-atun",
@@ -386,7 +408,9 @@
       "vegetarian": false,
       "spicy": 1,
       "raw": true,
-      "available": true
+      "available": true,
+      "image": "images/nigiri-atun.png",
+      "imageAlt": "Imagen ilustrativa de nigiri de atún"
     },
     {
       "id": "nigiri-ebi",
@@ -405,7 +429,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/nigiri-ebi.png",
+      "imageAlt": "Imagen ilustrativa de nigiri de camarón"
     },
     {
       "id": "sashimi",
@@ -426,7 +452,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": true,
-      "available": true
+      "available": true,
+      "image": "images/sashimi.png",
+      "imageAlt": "Imagen ilustrativa de sashimi mixto"
     },
     {
       "id": "yakimeshi-vegetal",
@@ -453,7 +481,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/yakimeshi-vegetal.png",
+      "imageAlt": "Imagen ilustrativa de yakimeshi de verduras"
     },
     {
       "id": "yakimeshi-pollo",
@@ -480,7 +510,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/yakimeshi-pollo.png",
+      "imageAlt": "Imagen ilustrativa de yakimeshi de pollo"
     },
     {
       "id": "teriyaki",
@@ -506,7 +538,9 @@
       "vegetarian": false,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/teriyaki.png",
+      "imageAlt": "Imagen ilustrativa de pollo teriyaki"
     },
     {
       "id": "udon",
@@ -530,7 +564,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/udon.png",
+      "imageAlt": "Imagen ilustrativa de udon de hongos"
     },
     {
       "id": "te-jazmin",
@@ -548,7 +584,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/te-jazmin.png",
+      "imageAlt": "Imagen ilustrativa de té frío de jazmín"
     },
     {
       "id": "limonada",
@@ -567,7 +605,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/limonada.png",
+      "imageAlt": "Imagen ilustrativa de limonada de jengibre"
     },
     {
       "id": "matcha-latte",
@@ -589,7 +629,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/matcha-latte.png",
+      "imageAlt": "Imagen ilustrativa de matcha latte frío"
     },
     {
       "id": "calpico",
@@ -609,7 +651,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/calpico.png",
+      "imageAlt": "Imagen ilustrativa de bebida de leche fermentada"
     },
     {
       "id": "agua",
@@ -625,7 +669,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/agua.png",
+      "imageAlt": "Imagen ilustrativa de agua natural"
     },
     {
       "id": "refresco",
@@ -644,7 +690,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/refresco.png",
+      "imageAlt": "Imagen ilustrativa de refresco de cola"
     },
     {
       "id": "cheesecake",
@@ -696,7 +744,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/mochi.png",
+      "imageAlt": "Imagen ilustrativa de mochi helado"
     },
     {
       "id": "helado",
@@ -717,7 +767,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/helado.png",
+      "imageAlt": "Imagen ilustrativa de helado de té verde"
     },
     {
       "id": "platano",
@@ -741,7 +793,9 @@
       "vegetarian": true,
       "spicy": 0,
       "raw": false,
-      "available": true
+      "available": true,
+      "image": "images/platano.png",
+      "imageAlt": "Imagen ilustrativa de plátano tempura"
     }
   ]
 }

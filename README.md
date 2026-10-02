@@ -1,6 +1,6 @@
 # Menú QR Base · Nami
 
-Un menú digital estático y reutilizable para restaurantes. Nami es el restaurante ficticio incluido como demostración: 30 productos, seis categorías, tres fotografías ilustrativas y una experiencia diseñada para el celular.
+Un menú digital estático y reutilizable para restaurantes. Nami es el restaurante ficticio incluido como demostración: 30 productos, seis categorías y una fotografía ilustrativa por producto, visible como miniatura en la carta y ampliada en su ficha. La experiencia está diseñada para el celular.
 
 - **Demo:** [Abrir Nami](https://ozzy-barbosa.github.io/menu-qr-base/)
 - **QR y tarjeta imprimible:** [Abrir página QR](https://ozzy-barbosa.github.io/menu-qr-base/qr/)

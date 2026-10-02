@@ -33,7 +33,17 @@ El menú público contiene exactamente las mismas 30 fichas y seis categorías q
 
 La huella SHA-256 del HTML público coincide con la exportación estática local: `45bfae02e1297d884411bfe85b8964bcfa100e7f523e06b086c5c09c9e3ca31c`. [Registro de comparación pública](evidence/public-verification.json). Estas comprobaciones documentan esta versión; cambios posteriores requieren ejecutar de nuevo las pruebas pertinentes.
 
-## Límites prácticos
+## Actualización: fotografía en los 30 productos
+
+- Se añadieron 27 originales generados con imagegen y se conservaron las tres imágenes iniciales.
+- Los 30 productos muestran una miniatura WebP de 240 × 240 y una fotografía ampliada de 600 px en la ficha. La imagen principal mantiene su versión de 1200 px.
+- Compilación y contrato de contenido correctos; cero errores, advertencias o sugerencias de tipos. Cinco pruebas de lógica aprobadas.
+- Siete pruebas de navegador aprobadas localmente, incluida la apertura y decodificación de las 30 fotografías ampliadas. También se verifica la carga de todas las miniaturas, incluso fuera de pantalla.
+- Revisión visual de la carta de bebidas en celular, la ficha de matcha latte y la carta de rollos en escritorio. Sin desbordamientos detectados a 320, 390, 768 y 1440 px.
+- Miniaturas de aproximadamente 6 a 14 KB, con carga diferida. Imágenes de las fichas de aproximadamente 28 a 55 KB, solicitadas al abrir cada ficha (las tres destacadas también aparecen en la portada).
+- Prompts y asociación entre producto y archivo documentados en `image-prompts-products.json`.
+
+## Límites prácticos de la verificación
 
 - Pruebas automatizadas en Chromium; no se verificó físicamente Safari/iPhone o Android.
 - QR decodificado digitalmente; falta el escaneo de una impresión real en el tamaño y material elegidos.

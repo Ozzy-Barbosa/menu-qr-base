@@ -10,6 +10,6 @@ El proyecto usa Astro, TypeScript, qrcode, jsQR, pngjs, Playwright, axe-core y a
 
 ## Imágenes y marca de demostración
 
-Las tres fotografías son ilustraciones creadas con la herramienta integrada imagegen; sus prompts constan en `docs/IMAGENES.md`. La marca ficticia Nami y los precios solo sirven para mostrar la plantilla. No se afirma exclusividad del nombre ni una comprobación de registro marcario.
+Las 30 fotografías son ilustraciones creadas con la herramienta integrada imagegen; sus prompts constan en `docs/IMAGENES.md` y `docs/image-prompts-products.json`. La marca ficticia Nami y los precios solo sirven para mostrar la plantilla. No se afirma exclusividad del nombre ni una comprobación de registro marcario.
 
 El repositorio no incorpora una licencia general para el código y los contenidos propios. La titularidad y los términos de reutilización por terceros deben ser definidos por su propietario antes de ofrecer una licencia abierta.

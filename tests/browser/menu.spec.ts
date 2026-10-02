@@ -18,12 +18,36 @@ test('Carta, recursos, metadatos y accesibilidad inicial', async ({ page }) => {
   await expect(page.locator('[data-product]')).toHaveCount(menu.products.length);
   await expect(page.getByRole('heading', { level: 1 })).toContainText(business.headline[0]);
   if (business.demo) await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, follow');
-  await page.evaluate(async () => { await document.fonts.ready; await Promise.all(Array.from(document.images).map(i => i.decode().catch(() => {}))); });
+  await expect(page.locator('.item-thumbnail')).toHaveCount(menu.products.filter(p => p.image).length);
+  await page.evaluate(async () => {
+    await document.fonts.ready;
+    // Load offscreen thumbnails too, so a broken image anywhere in the menu fails this check.
+    const images = Array.from(document.images).filter(i => i.hasAttribute('src'));
+    images.forEach(i => { i.loading = 'eager'; });
+    await Promise.all(images.map(i => i.decode()));
+  });
   expect(await page.locator('img').evaluateAll(images => images.every(img => (img as HTMLImageElement).naturalWidth > 0 || !img.hasAttribute('src')))).toBeTruthy();
   const result = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
   expect(result.violations.map(v => ({ id: v.id, nodes: v.nodes.map(n => n.target) }))).toEqual([]);
   await page.screenshot({ path: 'evidence/desktop.png', fullPage: true });
   expect(errors).toEqual([]);
+});
+
+test('Cada producto abre su fotografía ampliada', async ({ page }) => {
+  test.setTimeout(60000);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto('./');
+  for (const product of menu.products.filter(p => p.image)) {
+    const thumbnail = page.locator(`#producto-${product.id} .item-thumbnail`);
+    await thumbnail.click();
+    await expect(page.locator('#dialog-title')).toHaveText(product.name);
+    const photo = page.locator('#dialog-photo');
+    await expect(photo).toBeVisible();
+    await expect(photo).toHaveAttribute('alt', product.imageAlt!);
+    await photo.evaluate(async (img: HTMLImageElement) => { await img.decode(); });
+    expect(await photo.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThanOrEqual(600);
+    await page.keyboard.press('Escape');
+  }
 });
 
 test('Búsqueda, filtros combinados, vacío y restablecimiento', async ({ page }) => {

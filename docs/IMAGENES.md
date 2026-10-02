@@ -1,6 +1,8 @@
 # Imágenes y recursos
 
-Las fotografías de esta demostración se crearon con la herramienta integrada `imagegen`. Son ilustraciones de recetas ficticias, no fotografías de un restaurante operativo. Los originales seleccionados se guardan en `src/assets/`. Astro genera derivados WebP optimizados para la página, con anchos de 600 y 1200 píxeles.
+Las 30 fotografías de esta demostración se crearon con la herramienta integrada `imagegen`. Son ilustraciones de recetas ficticias, no fotografías de un restaurante operativo. Los originales seleccionados se guardan en `src/assets/`. Astro genera derivados WebP optimizados: miniaturas de 240 × 240 píxeles, fichas de 600 píxeles de ancho y una imagen principal de 1200 píxeles. Las miniaturas cargan conforme el usuario recorre la carta; la foto de la ficha se solicita al abrir el producto.
+
+Los prompts individuales de las 27 fotografías añadidas para completar la carta constan en [image-prompts-products.json](./image-prompts-products.json), junto con el identificador de producto, archivo y texto alternativo. Las tres fotografías iniciales se documentan a continuación. Para sustituir una imagen, reemplaza su original en `src/assets/` o cambia los campos `image` e `imageAlt` del producto en `src/data/menu.json`; la compilación vuelve a generar los tamaños optimizados. La plantilla también admite productos sin imagen.
 
 ## Prompts utilizados
 

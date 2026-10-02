@@ -1,0 +1,195 @@
+{
+  "tool": "imagegen (herramienta integrada)",
+  "purpose": "Fotografías ilustrativas del menú ficticio Nami",
+  "images": [
+    {
+      "id": "edamame",
+      "name": "Edamame al limón",
+      "output": "src/assets/edamame.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A modest shallow ceramic bowl of bright green steamed edamame pods, lightly sprinkled with flaky sea salt, with one small lemon wedge on the rim. No other food. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de edamame al limón"
+    },
+    {
+      "id": "sunomono",
+      "name": "Sunomono",
+      "output": "src/assets/sunomono.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A small handmade ceramic bowl of delicate thin cucumber slices in clear rice-vinegar dressing, lightly scattered with toasted sesame seeds. Fresh restrained Japanese cucumber salad. No seafood, no red onion. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de sunomono"
+    },
+    {
+      "id": "tempura",
+      "name": "Tempura de verduras",
+      "output": "src/assets/tempura.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade ivory ceramic plate with eight light golden vegetable tempura pieces: zucchini, carrot and orange sweet potato, with a tiny separate dark soy dipping bowl. Recognizable vegetables, crisp airy batter. No seafood or meat. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de tempura de verduras"
+    },
+    {
+      "id": "miso",
+      "name": "Sopa miso",
+      "output": "src/assets/miso.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A small handmade ceramic bowl of cloudy light tan miso soup, with white tofu cubes, dark green wakame seaweed and sliced scallions visible on the surface. No noodles, no mushrooms. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de sopa miso"
+    },
+    {
+      "id": "california",
+      "name": "California",
+      "output": "src/assets/california.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A complete plate of eight California uramaki sushi rolls with white rice and toasted sesame on the outside, and white and pink imitation crab surimi, avocado and cucumber clearly inside. No raw fish topping, no cream cheese. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de california"
+    },
+    {
+      "id": "spicy-tuna",
+      "name": "Spicy tuna",
+      "output": "src/assets/spicy-tuna.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Eight spicy tuna sushi rolls on a handmade ivory plate, white rice and toasted sesame on the outside, deep pink raw tuna and cucumber inside, with restrained coral-colored spicy mayonnaise on top. No salmon, no avocado topping. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de spicy tuna"
+    },
+    {
+      "id": "ebi-crunch",
+      "name": "Ebi crunch",
+      "output": "src/assets/ebi-crunch.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Eight sushi rolls filled with crispy golden tempura shrimp, avocado and a little white cream cheese, nori and rice on the outside, with a very light thin drizzle of dark sweet soy sauce. Shrimp tails only at the two end pieces. No raw fish topping. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de ebi crunch"
+    },
+    {
+      "id": "verde",
+      "name": "Jardín verde",
+      "output": "src/assets/verde.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Eight vegetarian sushi rolls filled with cucumber, carrot and avocado, beautifully topped with thin overlapping green avocado slices and toasted sesame. No fish, seafood, dairy or red sauces. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de jardín verde"
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "output": "src/assets/philadelphia.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Eight Philadelphia sushi uramaki rolls filled with fresh orange raw salmon, white cream cheese and crisp cucumber, with rice and toasted sesame outside. No fish laid over the outside and no avocado. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de philadelphia"
+    },
+    {
+      "id": "mango-ebi",
+      "name": "Mango & ebi",
+      "output": "src/assets/mango-ebi.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Eight uramaki sushi rolls filled with cooked pink shrimp, cucumber and avocado, topped with thin golden mango slices, a tiny touch of red chile and toasted sesame. No salmon or cream cheese. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de mango & ebi"
+    },
+    {
+      "id": "nigiri-salmon",
+      "name": "Nigiri de salmón",
+      "output": "src/assets/nigiri-salmon.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Exactly two elegant salmon nigiri: oblong sushi rice pillows topped with fresh orange raw salmon slices with natural fine white marbling. A tiny dab of green wasabi beside them. No rolls and no nori strips. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de nigiri de salmón"
+    },
+    {
+      "id": "nigiri-atun",
+      "name": "Nigiri de atún",
+      "output": "src/assets/nigiri-atun.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Exactly two elegant tuna nigiri: oblong sushi rice pillows topped with smooth ruby-red raw tuna slices. A tiny dab of wasabi beside them. Clearly tuna, not orange salmon. No rolls. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de nigiri de atún"
+    },
+    {
+      "id": "nigiri-ebi",
+      "name": "Nigiri de camarón",
+      "output": "src/assets/nigiri-ebi.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Exactly two shrimp nigiri: oblong sushi rice pillows topped with cooked butterflied pink-and-white shrimp, the curved shrimp tails visible at the ends. No raw fish and no sushi rolls. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de nigiri de camarón"
+    },
+    {
+      "id": "sashimi",
+      "name": "Sashimi mixto",
+      "output": "src/assets/sashimi.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade oval ivory plate holding eight thick clean sashimi slices, four orange salmon and four ruby-red tuna, alongside a small cucumber garnish and pale pickled ginger. No rice, no sushi rolls. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de sashimi mixto"
+    },
+    {
+      "id": "yakimeshi-vegetal",
+      "name": "Yakimeshi de verduras",
+      "output": "src/assets/yakimeshi-vegetal.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade ivory bowl of Japanese vegetable fried rice with small carrot cubes, zucchini, scrambled egg pieces and fresh scallion, lightly seasoned with soy sauce and sesame oil. Every grain visible, no meat or seafood. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de yakimeshi de verduras"
+    },
+    {
+      "id": "yakimeshi-pollo",
+      "name": "Yakimeshi de pollo",
+      "output": "src/assets/yakimeshi-pollo.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade ivory bowl of Japanese chicken fried rice with clearly visible bite-size golden cooked chicken pieces, carrot, zucchini and scrambled egg. Warm appetizing grains lightly coated in soy sauce. No seafood. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de yakimeshi de pollo"
+    },
+    {
+      "id": "teriyaki",
+      "name": "Pollo teriyaki",
+      "output": "src/assets/teriyaki.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade ivory bowl with sliced glazed chicken teriyaki on one side, a bed of steamed white rice and vivid green cooked broccoli, finished with a light scatter of toasted sesame. Glossy but restrained sauce, no raw fish. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de pollo teriyaki"
+    },
+    {
+      "id": "udon",
+      "name": "Udon de hongos",
+      "output": "src/assets/udon.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade ivory bowl of thick white udon noodles in light amber vegetable broth with sliced shiitake and button mushrooms and fresh scallion. The chewy thick noodles clearly visible above the broth. No meat, fish, egg or seafood. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de udon de hongos"
+    },
+    {
+      "id": "te-jazmin",
+      "name": "Té frío de jazmín",
+      "output": "src/assets/te-jazmin.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: One tall clear drinking glass of pale golden unsweetened iced jasmine tea with translucent ice cubes and subtle condensation, on a small ivory ceramic coaster. No fruit slices, no milk, no colored syrup and no straw. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de té frío de jazmín"
+    },
+    {
+      "id": "limonada",
+      "name": "Limonada de jengibre",
+      "output": "src/assets/limonada.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: One tall clear glass of sparkling pale lemon-and-ginger lemonade with ice, delicate visible bubbles, one thin lemon slice and a small sliver of ginger. Slight natural cloudiness, condensation and an ivory ceramic coaster. No mint. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de limonada de jengibre"
+    },
+    {
+      "id": "matcha-latte",
+      "name": "Matcha latte frío",
+      "output": "src/assets/matcha-latte.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: One clear cylindrical glass of iced matcha latte, beautifully layered soft white milk at the bottom and rich natural green matcha swirling above it, clear ice cubes and light condensation, an ivory ceramic coaster. No fruit, whipped cream or straw. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de matcha latte frío"
+    },
+    {
+      "id": "calpico",
+      "name": "Bebida de leche fermentada",
+      "output": "src/assets/calpico.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: One tall clear glass of a pale opaque off-white Japanese fermented-milk soft drink with visible ice cubes and subtle condensation, placed on an ivory ceramic coaster. Very light milky white color, not a smoothie. No fruit slices, mint or garnish, no branding. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de bebida de leche fermentada"
+    },
+    {
+      "id": "agua",
+      "name": "Agua natural",
+      "output": "src/assets/agua.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: One simple transparent sealed 500 ml water bottle with clear still mineral-free water, a small plain white screw cap and no label, beside a small empty clean clear tumbler. Subtle condensation, beautiful realistic material. No branding, writing or embossed letters. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de agua natural"
+    },
+    {
+      "id": "refresco",
+      "name": "Refresco de cola",
+      "output": "src/assets/refresco.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: One clear tumbler of dark brown cola soda with large translucent ice cubes and visible fine bubbles, light condensation, on an ivory ceramic coaster. No can, bottle, logo, branding, lemon or alcohol. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de refresco de cola"
+    },
+    {
+      "id": "mochi",
+      "name": "Mochi helado",
+      "output": "src/assets/mochi.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Exactly two mochi ice cream pieces on an ivory ceramic plate: one ivory vanilla mochi intact and one pale pink strawberry mochi cut in half with the two halves side by side to reveal its ice-cream filling. Fine rice flour dusting. No extra mochi, no chocolate, no berries garnish. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de mochi helado"
+    },
+    {
+      "id": "helado",
+      "name": "Helado de té verde",
+      "output": "src/assets/helado.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: Exactly two carefully formed scoops of pale green matcha ice cream in a small handmade ivory ceramic dessert bowl, with a delicate dusting of matcha powder and a small brass spoon beside the bowl. No cone, wafer, nuts or fruit. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de helado de té verde"
+    },
+    {
+      "id": "platano",
+      "name": "Plátano tempura",
+      "output": "src/assets/platano.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: individual product photograph for the Nami fictional Japanese restaurant menu. Subject: A handmade ivory ceramic dessert plate with three pieces of golden banana tempura, one piece opened to reveal pale banana inside, a light drizzle of honey and one scoop of vanilla ice cream to the side. No berries, chocolate, nuts or green matcha. Setting and style: muted dark charcoal-olive stone tabletop, warm ivory handmade ceramics, refined natural editorial food photography, consistent warm side daylight from upper left, believable food textures, no excessive decoration. Composition: landscape 3:2, close but entire serving vessel or glass visible, main subject centered within central 65 percent with some breathing room so it can also be displayed as a square thumbnail. Three-quarter camera view, soft background, appetizing, restrained premium styling. No people, hands, text, logos, watermark, borders, collage or additional dishes. Image is illustrative of a fictional recipe.",
+      "alt": "Imagen ilustrativa de plátano tempura"
+    }
+  ]
+}

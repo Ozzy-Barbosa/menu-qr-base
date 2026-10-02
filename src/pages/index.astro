@@ -51,10 +51,13 @@ const clientData = menu.products.map(p => ({ ...p, photo: p.image ? photos[p.ima
           <div class="category-heading"><div class="category-heading-left"><span class="category-icon"><Icon name={category.icon} size={28} /></span><div><p class="eyebrow">{category.eyebrow}</p><h3 id={`heading-${category.id}`}>{category.name}</h3></div></div><p>{category.description}</p></div>
           <div class="product-grid">
             {menu.products.filter(p => p.category === category.id).map(product => <details class:list={['menu-item', { 'sold-out': !product.available }]} id={`producto-${product.id}`} data-product={product.id}>
-              <summary data-open={product.id}>
+              <summary data-open={product.id} class:list={{ 'has-photo': !!product.image }}>
+                {product.image && <img class="item-thumbnail" src={photos[product.image].thumbnail} alt={product.imageAlt} width="240" height="240" loading="lazy" decoding="async" />}
+                <div class="item-copy">
                 <div class="item-top"><h4>{product.name}</h4><span class="item-price">{money(product.price)}</span></div>
                 <p>{product.description}</p>
                 <div class="item-bottom"><span class="portion">{product.portion}</span><span class="item-tags">{product.vegetarian && <span class="tag tag-green"><Icon name="leaf" size={12} />Vegetariano</span>}{product.spicy > 0 && <span class="tag tag-spicy">{product.spicy > 1 ? 'Picante' : 'Toque picante'}</span>}{product.raw && <span class="tag">Crudo</span>}{!product.available && <span class="tag tag-out">Agotado · demo</span>}</span><span class="item-more"><Icon name="diagonal" size={17} /><span class="sr-only">Ver detalles de {product.name}</span></span></div>
+                </div>
               </summary>
               <div class="fallback-details"><p><strong>Ingredientes:</strong> {product.ingredients.join(', ')}.</p><p><strong>Alérgenos de la receta:</strong> {product.allergens.length ? product.allergens.join(', ') : 'Sin alérgenos declarados en esta receta de ejemplo; no es una garantía de ausencia.'}.</p></div>
             </details>)}

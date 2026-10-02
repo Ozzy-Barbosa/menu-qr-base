@@ -121,10 +121,13 @@
   .menu-item summary { list-style: none; cursor: pointer; padding: 25px 3px; border-radius: 3px; transition: background .2s; height: 100%; }
   .menu-item summary::-webkit-details-marker { display: none; }
   .menu-item summary:hover { background: #eae8df77; }
-  .item-top { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+  .menu-item summary.has-photo { display: grid; grid-template-columns: 104px minmax(0, 1fr); align-items: start; gap: 20px; }
+  .item-thumbnail { width: 104px; height: 104px; object-fit: cover; border-radius: 7px; background: var(--accent-soft); }
+  .item-copy { min-width: 0; }
+  .item-top { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 12px; }
   .item-top h4 { font-size: 14px; font-weight: 650; }
   .item-price { font-size: 14px; font-weight: 600; white-space: nowrap; }
-  .menu-item summary > p { color: var(--muted); font-size: 13px; line-height: 1.75; padding-block: 8px 15px; max-width: 95%; }
+  .item-copy > p { color: var(--muted); font-size: 13px; line-height: 1.75; padding-block: 8px 15px; max-width: 95%; }
   .item-bottom { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; }
   .item-tags { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
   .tag { display: inline-flex; align-items: center; gap: 4px; font-size: 8px; border-radius: 3px; color: #5e6255; background: #eaeae0; padding: 3px 6px; line-height: 1.4; }
@@ -194,6 +197,8 @@
     .category-tab svg { width: 15px; }
     .featured-grid { gap: 20px; }
     .product-grid { column-gap: 34px; }
+    .menu-item summary.has-photo { grid-template-columns: 88px minmax(0, 1fr); gap: 16px; }
+    .item-thumbnail { width: 88px; height: 88px; }
   }
   @media (max-width: 800px) {
     .hero h1 { font-size: 54px; }
@@ -273,7 +278,7 @@
     .product-grid { grid-template-columns: 1fr; }
     .menu-item summary { padding: 21px 1px; }
     .item-top h4, .item-price { font-size: 15px; }
-    .menu-item summary > p { font-size: 13px; padding-block: 7px 12px; }
+    .item-copy > p { font-size: 13px; padding-block: 7px 12px; max-width: none; }
     .item-tags { flex-basis: auto; order: unset; }
     .tag { font-size: 9px; }
     .portion { font-size: 11px; }
@@ -306,6 +311,8 @@
     .section-heading h2 { font-size: 41px; }
     .category-nav, .featured-grid { margin-right: -16px; }
     .intro-right { display: none; }
+    .menu-item summary.has-photo { grid-template-columns: 72px minmax(0, 1fr); gap: 12px; }
+    .item-thumbnail { width: 72px; height: 72px; }
     .dialog-heading { flex-wrap: wrap; gap: 10px; }
   }
   @media (prefers-reduced-motion: reduce) {
