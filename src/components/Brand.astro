@@ -1,0 +1,5 @@
+---
+import Icon from './Icon.astro';
+import { business } from '../lib/content';
+---
+<span class="brand"><Icon name="wave" size={40} /><span class="brand-word">{business.name.toLocaleLowerCase(business.locale)}<span class="brand-descriptor">{business.descriptor}</span></span></span>

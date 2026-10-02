@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "cafeteria",
+      "name": "Café & té",
+      "eyebrow": "01 · TU PAUSA",
+      "description": "Algo rico en tu taza.",
+      "icon": "cup"
+    },
+    {
+      "id": "reposteria",
+      "name": "Algo dulce",
+      "eyebrow": "02 · PARA ACOMPAÑAR",
+      "description": "El otro lado del café.",
+      "icon": "sweet"
+    }
+  ],
+  "products": [
+    {
+      "id": "americano",
+      "category": "cafeteria",
+      "name": "Americano",
+      "description": "Espresso con agua caliente.",
+      "portion": "240 ml",
+      "price": 45,
+      "ingredients": [
+        "Café",
+        "Agua"
+      ],
+      "allergens": [],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "latte",
+      "category": "cafeteria",
+      "name": "Latte",
+      "description": "Espresso y leche espumada.",
+      "portion": "300 ml",
+      "price": 62.5,
+      "ingredients": [
+        "Café",
+        "Leche"
+      ],
+      "allergens": [
+        "Lácteos"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": false
+    },
+    {
+      "id": "pastel-matcha",
+      "category": "reposteria",
+      "name": "Cheesecake de matcha",
+      "description": "Una rebanada cremosa de té verde con base de galleta.",
+      "portion": "120 g",
+      "price": 95,
+      "ingredients": [
+        "Queso crema",
+        "Huevo",
+        "Leche",
+        "Galleta de trigo",
+        "Mantequilla",
+        "Matcha",
+        "Azúcar"
+      ],
+      "allergens": [
+        "Lácteos",
+        "Huevo",
+        "Trigo"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true,
+      "featured": true,
+      "image": "images/matcha.png",
+      "imageAlt": "Rebanada ilustrativa de cheesecake de matcha"
+    }
+  ]
+}

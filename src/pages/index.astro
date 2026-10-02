@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { business, menu, money, photos } from '../lib/content';
+const hero = photos[business.hero.image];
+const heroProduct = menu.products.find(p => p.id === business.hero.productId);
+const featured = menu.products.filter(p => p.featured);
+const clientData = menu.products.map(p => ({ ...p, photo: p.image ? photos[p.image]?.small : null }));
+---
+<Layout>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="little-line"></span> A TU RITMO, A TU GUSTO</p>
+        <h1 id="hero-title">{business.headline[0]}<br /><em>{business.headline[1]}</em></h1>
+        <p class="hero-description">{business.description}</p>
+        <a class="button button-dark" href="#carta">Explorar el menú <Icon name="arrow" size={20} /></a>
+        <div class="hero-note"><Icon name="wave" size={29} /><span>{business.hero.note}</span></div>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-photo" src={hero.large} srcset={`${hero.small} 600w, ${hero.large} 1200w`} sizes="(max-width: 700px) 100vw, 52vw" width="1200" height="800" alt={business.hero.alt} fetchpriority="high" />
+        <div class="hero-label"><span>{heroProduct ? `CONOCE ${heroProduct.name.toLocaleUpperCase(business.locale)}` : 'EXPLORA EL MENÚ'}</span><a href={heroProduct ? `#producto-${heroProduct.id}` : '#carta'} data-open={heroProduct?.id} aria-label={heroProduct ? `Ver detalles de ${heroProduct.name}` : 'Explorar el menú'}><Icon name="diagonal" size={24} /></a></div>
+        <div class="hero-stamp"><Icon name="wave" size={30} /><span>UN BOCADO<br />Y OTRO MÁS</span></div>
+      </div>
+    </section>
+    <div class="intro-strip container"><span>Un rollo para cada antojo.</span><span class="intro-right">Explora. Elige. Disfruta. <Icon name="wave" size={22} /></span></div>
+    <section id="carta" class="menu-section container" aria-labelledby="menu-title">
+      <div class="section-heading"><div><p class="eyebrow">HECHO PARA ELEGIR SIN PRISA</p><h2 id="menu-title">¿Qué se te <em>antoja?</em></h2></div><p class="currency-note">Precios de ejemplo en {business.currency}<br /><span>Porciones individuales, salvo indicación.</span></p></div>
+      <div class="menu-tools">
+        <div class="search-wrap"><Icon name="search" size={21} /><label class="sr-only" for="search">Buscar en el menú</label><input id="search" type="search" placeholder="Busca tu antojo o un ingrediente…" autocomplete="off" /><button class="search-clear" type="button" aria-label="Borrar búsqueda" hidden><Icon name="close" size={18} /></button></div>
+        <button type="button" class="vegetarian-toggle" aria-pressed="false" id="vegetarian"><Icon name="leaf" size={18} /> Vegetariano</button>
+      </div>
+      <nav class="category-nav" aria-label="Categorías del menú">
+        <a href="#carta" class="category-tab active" data-category="all" aria-current="true">Todo el menú <span>{menu.products.length}</span></a>
+        {menu.categories.map(category => <a href={`#${category.id}`} class="category-tab" data-category={category.id}><Icon name={category.icon} size={18} />{category.name}</a>)}
+      </nav>
+      <noscript><p class="no-script-note">Puedes consultar toda la carta y desplegar cada platillo. La búsqueda y los filtros requieren JavaScript.</p><style>.menu-tools,.featured-section,.search-status{'{display:none}'}</style></noscript>
+      <div class="search-status"><p id="result-count" aria-live="polite" aria-atomic="true">{menu.products.length} opciones para disfrutar</p><button type="button" id="reset-filters" class="text-link" hidden>Limpiar filtros <Icon name="close" size={16} /></button></div>
+      {featured.length > 0 && <section class="featured-section" aria-labelledby="featured-title" id="featured">
+        <div class="subheading"><h3 id="featured-title">Empieza por aquí</h3><span>{featured.length === 1 ? 'UNA BUENA IDEA' : `${featured.length} BUENAS IDEAS`} <Icon name="diagonal" size={16} /></span></div>
+        <div class="featured-grid">
+          {featured.map(product => <a class="featured-card" href={`#producto-${product.id}`} data-open={product.id}>
+            <div class="featured-photo-wrap"><img src={photos[product.image!].small} alt={product.imageAlt} width="600" height="400" loading="lazy" /><span class="photo-tag">{menu.categories.find(c => c.id === product.category)!.name.toLocaleUpperCase(business.locale)}</span><span class="photo-arrow"><Icon name="diagonal" size={19} /></span></div>
+            <div class="featured-card-title"><h4>{product.name}</h4><span>{money(product.price)}</span></div><p>{product.description}</p><span class="portion">{product.portion}</span>
+          </a>)}
+        </div>
+      </section>}
+      <div id="empty-state" class="empty-state" hidden><Icon name="search" size={40} /><h3>No encontramos ese antojo.</h3><p>Prueba otro ingrediente o vuelve a ver toda la carta.</p><button class="button button-dark" type="button" id="empty-reset">Ver todo el menú <Icon name="arrow" size={18} /></button></div>
+      <div class="catalog">
+        {menu.categories.map(category => <section class="category-section" id={category.id} data-section={category.id} aria-labelledby={`heading-${category.id}`}>
+          <div class="category-heading"><div class="category-heading-left"><span class="category-icon"><Icon name={category.icon} size={28} /></span><div><p class="eyebrow">{category.eyebrow}</p><h3 id={`heading-${category.id}`}>{category.name}</h3></div></div><p>{category.description}</p></div>
+          <div class="product-grid">
+            {menu.products.filter(p => p.category === category.id).map(product => <details class:list={['menu-item', { 'sold-out': !product.available }]} id={`producto-${product.id}`} data-product={product.id}>
+              <summary data-open={product.id}>
+                <div class="item-top"><h4>{product.name}</h4><span class="item-price">{money(product.price)}</span></div>
+                <p>{product.description}</p>
+                <div class="item-bottom"><span class="portion">{product.portion}</span><span class="item-tags">{product.vegetarian && <span class="tag tag-green"><Icon name="leaf" size={12} />Vegetariano</span>}{product.spicy > 0 && <span class="tag tag-spicy">{product.spicy > 1 ? 'Picante' : 'Toque picante'}</span>}{product.raw && <span class="tag">Crudo</span>}{!product.available && <span class="tag tag-out">Agotado · demo</span>}</span><span class="item-more"><Icon name="diagonal" size={17} /><span class="sr-only">Ver detalles de {product.name}</span></span></div>
+              </summary>
+              <div class="fallback-details"><p><strong>Ingredientes:</strong> {product.ingredients.join(', ')}.</p><p><strong>Alérgenos de la receta:</strong> {product.allergens.length ? product.allergens.join(', ') : 'Sin alérgenos declarados en esta receta de ejemplo; no es una garantía de ausencia.'}.</p></div>
+            </details>)}
+          </div>
+        </section>)}
+      </div>
+      <aside class="allergen-note"><Icon name="info" size={23} /><div><h3>Un momento para los ingredientes</h3><p>Las etiquetas describen estas recetas de ejemplo. En un restaurante real, consulta al personal sobre alergias, ingredientes y contaminación cruzada. “Vegetariano” no significa “libre de alérgenos”. Los productos marcados como “Crudo” contienen pescado sin cocción.</p></div></aside>
+      <p class="menu-footnote">{business.demo ? 'Menú de demostración. No se reciben pedidos ni pagos. Las fotografías son ilustrativas y la disponibilidad es de ejemplo.' : 'Consulta los ingredientes y la disponibilidad con el personal.'}</p>
+    </section>
+  </main>
+  <dialog id="product-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <button class="dialog-close" type="button" aria-label="Cerrar detalles"><Icon name="close" size={23} /></button>
+    <div id="dialog-photo-wrap" hidden><img id="dialog-photo" alt="" width="600" height="400" /></div>
+    <div class="dialog-content"><p class="eyebrow" id="dialog-category"></p><div class="dialog-heading"><h2 id="dialog-title"></h2><span id="dialog-price"></span></div><p id="dialog-portion" class="portion"></p><div id="dialog-tags" class="dialog-tags"></div><p id="dialog-description"></p><h3>Qué lleva</h3><p id="dialog-ingredients"></p><div class="dialog-allergens"><h3>Alérgenos de esta receta</h3><p id="dialog-allergens"></p></div><p class="dialog-disclaimer">Receta ilustrativa. Para alergias y contaminación cruzada, consulta siempre con el establecimiento.</p><button class="button button-dark" type="button" id="dialog-back">Seguir explorando <Icon name="arrow" size={18} /></button></div>
+  </dialog>
+  <script type="application/json" id="menu-data" set:html={JSON.stringify({ products: clientData, categories: menu.categories, locale: business.locale, currency: business.currency }).replace(/</g, '\\u003c')} />
+  <script>
+    import '../scripts/menu';
+  </script>
+</Layout>

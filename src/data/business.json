@@ -1,0 +1,32 @@
+{
+  "name": "Nami",
+  "descriptor": "Sushi & cocina japonesa",
+  "tagline": "Un pequeño viaje. Un gran antojo.",
+  "headline": [
+    "Un pequeño viaje.",
+    "Un gran antojo."
+  ],
+  "description": "Rollos, cocina japonesa y algo rico para cerrar. Explora nuestra carta y encuentra tu próximo favorito.",
+  "locale": "es-MX",
+  "currency": "MXN",
+  "url": "https://ozzy-barbosa.github.io/menu-qr-base/",
+  "demo": true,
+  "demoNotice": "Demostración · Negocio, imágenes y precios de ejemplo",
+  "contact": {
+    "phone": null,
+    "address": null,
+    "hours": null
+  },
+  "hero": {
+    "image": "images/nami-roll.png",
+    "productId": "nami-roll",
+    "note": "Sushi, calma y buenos bocados.",
+    "alt": "Fotografía ilustrativa de rollos de sushi con salmón y aguacate sobre cerámica artesanal"
+  },
+  "theme": {
+    "paper": "#f6f3ec",
+    "ink": "#242820",
+    "accent": "#a83f2d",
+    "accentSoft": "#efe0d5"
+  }
+}

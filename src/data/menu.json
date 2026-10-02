@@ -1,0 +1,747 @@
+{
+  "categories": [
+    {
+      "id": "entradas",
+      "name": "Para empezar",
+      "eyebrow": "01 · AL CENTRO",
+      "description": "Pequeños comienzos para un buen momento.",
+      "icon": "bowl"
+    },
+    {
+      "id": "rollos",
+      "name": "Rollos",
+      "eyebrow": "02 · EL ANTOJO",
+      "description": "Clásicos que conoces. Combinaciones por descubrir.",
+      "icon": "roll"
+    },
+    {
+      "id": "nigiri",
+      "name": "Nigiri & sashimi",
+      "eyebrow": "03 · LO ESENCIAL",
+      "description": "Pocos ingredientes, todo el protagonismo.",
+      "icon": "fish"
+    },
+    {
+      "id": "bowls",
+      "name": "Bowls & cocina",
+      "eyebrow": "04 · ALGO CALIENTE",
+      "description": "Una pausa reconfortante, servida en un bowl.",
+      "icon": "bowl"
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "eyebrow": "05 · PARA ACOMPAÑAR",
+      "description": "Fresco, cítrico o simplemente tu favorito.",
+      "icon": "cup"
+    },
+    {
+      "id": "postres",
+      "name": "Un final dulce",
+      "eyebrow": "06 · UN ÚLTIMO ANTOJO",
+      "description": "Siempre queda espacio para algo dulce.",
+      "icon": "sweet"
+    }
+  ],
+  "products": [
+    {
+      "id": "edamame",
+      "category": "entradas",
+      "name": "Edamame al limón",
+      "description": "Vainas al vapor con sal de mar y un toque de limón.",
+      "portion": "180 g",
+      "price": 85,
+      "ingredients": [
+        "Edamame",
+        "Limón",
+        "Sal de mar"
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "gyozas",
+      "category": "entradas",
+      "name": "Gyozas doraditas",
+      "description": "Dumplings de cerdo y col, sellados a la plancha. Con salsa ponzu.",
+      "portion": "5 piezas",
+      "price": 125,
+      "ingredients": [
+        "Masa de trigo",
+        "Cerdo",
+        "Col",
+        "Cebollín",
+        "Soya",
+        "Limón",
+        "Aceite de ajonjolí"
+      ],
+      "allergens": [
+        "Trigo",
+        "Soya",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true,
+      "featured": true,
+      "image": "images/gyozas.png",
+      "imageAlt": "Gyozas doradas de ejemplo con cebollín sobre un plato de cerámica"
+    },
+    {
+      "id": "sunomono",
+      "category": "entradas",
+      "name": "Sunomono",
+      "description": "Pepino fresco, vinagre de arroz y ajonjolí tostado.",
+      "portion": "150 g",
+      "price": 75,
+      "ingredients": [
+        "Pepino",
+        "Vinagre de arroz",
+        "Azúcar",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Ajonjolí"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "tempura",
+      "category": "entradas",
+      "name": "Tempura de verduras",
+      "description": "Calabaza, zanahoria y camote en una capa ligera y crujiente.",
+      "portion": "8 piezas",
+      "price": 115,
+      "ingredients": [
+        "Calabaza",
+        "Zanahoria",
+        "Camote",
+        "Harina de trigo",
+        "Huevo",
+        "Salsa de soya"
+      ],
+      "allergens": [
+        "Trigo",
+        "Huevo",
+        "Soya"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "miso",
+      "category": "entradas",
+      "name": "Sopa miso",
+      "description": "Caldo con miso, tofu, wakame y cebollín.",
+      "portion": "250 ml",
+      "price": 65,
+      "ingredients": [
+        "Miso de soya",
+        "Tofu",
+        "Wakame",
+        "Cebollín",
+        "Caldo de bonito"
+      ],
+      "allergens": [
+        "Soya",
+        "Pescado"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "nami-roll",
+      "category": "rollos",
+      "name": "Nami roll",
+      "description": "Salmón, aguacate y pepino. Cubierto con salmón, ajonjolí y un toque de ponzu.",
+      "portion": "8 piezas",
+      "price": 195,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Salmón crudo",
+        "Aguacate",
+        "Pepino",
+        "Ajonjolí",
+        "Salsa ponzu con soya y trigo"
+      ],
+      "allergens": [
+        "Pescado",
+        "Soya",
+        "Trigo",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": true,
+      "available": true,
+      "featured": true,
+      "image": "images/nami-roll.png",
+      "imageAlt": "Rollos ilustrativos cubiertos de salmón con aguacate y ajonjolí"
+    },
+    {
+      "id": "california",
+      "category": "rollos",
+      "name": "California",
+      "description": "El clásico: surimi, aguacate y pepino con ajonjolí por fuera.",
+      "portion": "8 piezas",
+      "price": 145,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Surimi con pescado, trigo y huevo",
+        "Aguacate",
+        "Pepino",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Pescado",
+        "Trigo",
+        "Huevo",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "spicy-tuna",
+      "category": "rollos",
+      "name": "Spicy tuna",
+      "description": "Atún, pepino y mayonesa picante. Un toque de chile para despertar el antojo.",
+      "portion": "8 piezas",
+      "price": 185,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Atún crudo",
+        "Pepino",
+        "Mayonesa de huevo",
+        "Chile",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Pescado",
+        "Huevo",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 2,
+      "raw": true,
+      "available": true
+    },
+    {
+      "id": "ebi-crunch",
+      "category": "rollos",
+      "name": "Ebi crunch",
+      "description": "Camarón tempura, aguacate y queso crema con salsa dulce de soya.",
+      "portion": "8 piezas",
+      "price": 185,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Camarón",
+        "Harina de trigo",
+        "Huevo",
+        "Aguacate",
+        "Queso crema",
+        "Salsa de soya",
+        "Azúcar"
+      ],
+      "allergens": [
+        "Crustáceos",
+        "Trigo",
+        "Huevo",
+        "Lácteos",
+        "Soya"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "verde",
+      "category": "rollos",
+      "name": "Jardín verde",
+      "description": "Aguacate, pepino y zanahoria, con una cubierta de aguacate y ajonjolí.",
+      "portion": "8 piezas",
+      "price": 135,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Aguacate",
+        "Pepino",
+        "Zanahoria",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Ajonjolí"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "philadelphia",
+      "category": "rollos",
+      "name": "Philadelphia",
+      "description": "Salmón fresco, queso crema y pepino. Suave y cremoso.",
+      "portion": "8 piezas",
+      "price": 175,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Salmón crudo",
+        "Queso crema",
+        "Pepino",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Pescado",
+        "Lácteos",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": true,
+      "available": true
+    },
+    {
+      "id": "mango-ebi",
+      "category": "rollos",
+      "name": "Mango & ebi",
+      "description": "Camarón cocido, pepino y aguacate, con mango y un toque de chile.",
+      "portion": "8 piezas",
+      "price": 180,
+      "ingredients": [
+        "Arroz de sushi",
+        "Nori",
+        "Camarón",
+        "Pepino",
+        "Aguacate",
+        "Mango",
+        "Chile",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Crustáceos",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 1,
+      "raw": false,
+      "available": false
+    },
+    {
+      "id": "nigiri-salmon",
+      "category": "nigiri",
+      "name": "Nigiri de salmón",
+      "description": "Dos bocados de arroz avinagrado coronados con salmón.",
+      "portion": "2 piezas",
+      "price": 95,
+      "ingredients": [
+        "Arroz de sushi",
+        "Salmón crudo",
+        "Wasabi"
+      ],
+      "allergens": [
+        "Pescado"
+      ],
+      "vegetarian": false,
+      "spicy": 1,
+      "raw": true,
+      "available": true
+    },
+    {
+      "id": "nigiri-atun",
+      "category": "nigiri",
+      "name": "Nigiri de atún",
+      "description": "Atún sobre arroz de sushi y un toque de wasabi.",
+      "portion": "2 piezas",
+      "price": 105,
+      "ingredients": [
+        "Arroz de sushi",
+        "Atún crudo",
+        "Wasabi"
+      ],
+      "allergens": [
+        "Pescado"
+      ],
+      "vegetarian": false,
+      "spicy": 1,
+      "raw": true,
+      "available": true
+    },
+    {
+      "id": "nigiri-ebi",
+      "category": "nigiri",
+      "name": "Nigiri de camarón",
+      "description": "Camarón cocido abierto sobre arroz avinagrado.",
+      "portion": "2 piezas",
+      "price": 90,
+      "ingredients": [
+        "Arroz de sushi",
+        "Camarón cocido"
+      ],
+      "allergens": [
+        "Crustáceos"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "sashimi",
+      "category": "nigiri",
+      "name": "Sashimi mixto",
+      "description": "Cortes de salmón y atún, con pepino y jengibre encurtido.",
+      "portion": "8 cortes · 160 g",
+      "price": 225,
+      "ingredients": [
+        "Salmón crudo",
+        "Atún crudo",
+        "Pepino",
+        "Jengibre encurtido"
+      ],
+      "allergens": [
+        "Pescado"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": true,
+      "available": true
+    },
+    {
+      "id": "yakimeshi-vegetal",
+      "category": "bowls",
+      "name": "Yakimeshi de verduras",
+      "description": "Arroz salteado con zanahoria, calabaza, huevo y cebollín.",
+      "portion": "350 g",
+      "price": 125,
+      "ingredients": [
+        "Arroz",
+        "Zanahoria",
+        "Calabaza",
+        "Huevo",
+        "Cebollín",
+        "Salsa de soya",
+        "Aceite de ajonjolí"
+      ],
+      "allergens": [
+        "Huevo",
+        "Soya",
+        "Trigo",
+        "Ajonjolí"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "yakimeshi-pollo",
+      "category": "bowls",
+      "name": "Yakimeshi de pollo",
+      "description": "Arroz al wok con pollo, verduras y huevo.",
+      "portion": "400 g",
+      "price": 155,
+      "ingredients": [
+        "Arroz",
+        "Pollo",
+        "Zanahoria",
+        "Calabaza",
+        "Huevo",
+        "Salsa de soya",
+        "Aceite de ajonjolí"
+      ],
+      "allergens": [
+        "Huevo",
+        "Soya",
+        "Trigo",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "teriyaki",
+      "category": "bowls",
+      "name": "Pollo teriyaki",
+      "description": "Pollo glaseado, arroz al vapor, brócoli y ajonjolí.",
+      "portion": "400 g",
+      "price": 175,
+      "ingredients": [
+        "Pollo",
+        "Arroz",
+        "Brócoli",
+        "Salsa de soya",
+        "Azúcar",
+        "Jengibre",
+        "Ajonjolí"
+      ],
+      "allergens": [
+        "Soya",
+        "Trigo",
+        "Ajonjolí"
+      ],
+      "vegetarian": false,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "udon",
+      "category": "bowls",
+      "name": "Udon de hongos",
+      "description": "Fideos gruesos con champiñones, shiitake y caldo de verduras.",
+      "portion": "450 g",
+      "price": 165,
+      "ingredients": [
+        "Fideos de trigo",
+        "Champiñones",
+        "Shiitake",
+        "Caldo de verduras",
+        "Salsa de soya",
+        "Cebollín"
+      ],
+      "allergens": [
+        "Trigo",
+        "Soya"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "te-jazmin",
+      "category": "bebidas",
+      "name": "Té frío de jazmín",
+      "description": "Infusión de jazmín servida con hielo y sin azúcar.",
+      "portion": "400 ml",
+      "price": 45,
+      "ingredients": [
+        "Té de jazmín",
+        "Agua",
+        "Hielo"
+      ],
+      "allergens": [],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "limonada",
+      "category": "bebidas",
+      "name": "Limonada de jengibre",
+      "description": "Limón, jengibre fresco y agua mineral. Ligera y burbujeante.",
+      "portion": "400 ml",
+      "price": 55,
+      "ingredients": [
+        "Limón",
+        "Jengibre",
+        "Agua mineral",
+        "Jarabe de azúcar"
+      ],
+      "allergens": [],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "matcha-latte",
+      "category": "bebidas",
+      "name": "Matcha latte frío",
+      "description": "Té matcha con leche, hielo y un toque de vainilla.",
+      "portion": "350 ml",
+      "price": 65,
+      "ingredients": [
+        "Matcha",
+        "Leche de vaca",
+        "Vainilla",
+        "Azúcar",
+        "Hielo"
+      ],
+      "allergens": [
+        "Lácteos"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "calpico",
+      "category": "bebidas",
+      "name": "Bebida de leche fermentada",
+      "description": "Una bebida suave y ligeramente cítrica, servida con hielo.",
+      "portion": "350 ml",
+      "price": 55,
+      "ingredients": [
+        "Concentrado de leche fermentada",
+        "Agua",
+        "Hielo"
+      ],
+      "allergens": [
+        "Lácteos"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "agua",
+      "category": "bebidas",
+      "name": "Agua natural",
+      "description": "Agua purificada embotellada.",
+      "portion": "500 ml",
+      "price": 30,
+      "ingredients": [
+        "Agua purificada"
+      ],
+      "allergens": [],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "refresco",
+      "category": "bebidas",
+      "name": "Refresco de cola",
+      "description": "El clásico refresco de cola, bien frío.",
+      "portion": "355 ml",
+      "price": 40,
+      "ingredients": [
+        "Agua carbonatada",
+        "Azúcar",
+        "Saborizante de cola",
+        "Cafeína"
+      ],
+      "allergens": [],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "cheesecake",
+      "category": "postres",
+      "name": "Cheesecake de matcha",
+      "description": "Cremoso, delicado y con ese toque de té verde que lo cambia todo.",
+      "portion": "1 rebanada · 120 g",
+      "price": 95,
+      "ingredients": [
+        "Queso crema",
+        "Leche",
+        "Huevo",
+        "Matcha",
+        "Galleta de trigo",
+        "Mantequilla",
+        "Azúcar"
+      ],
+      "allergens": [
+        "Lácteos",
+        "Huevo",
+        "Trigo"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true,
+      "featured": true,
+      "image": "images/matcha.png",
+      "imageAlt": "Rebanada ilustrativa de cheesecake de matcha en un plato artesanal"
+    },
+    {
+      "id": "mochi",
+      "category": "postres",
+      "name": "Mochi helado",
+      "description": "Masa suave de arroz con helado de vainilla y fresa.",
+      "portion": "2 piezas",
+      "price": 85,
+      "ingredients": [
+        "Harina de arroz glutinoso",
+        "Leche",
+        "Crema",
+        "Azúcar",
+        "Vainilla",
+        "Fresa"
+      ],
+      "allergens": [
+        "Lácteos"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "helado",
+      "category": "postres",
+      "name": "Helado de té verde",
+      "description": "Dos bolas de helado cremoso con matcha.",
+      "portion": "2 bolas · 120 g",
+      "price": 65,
+      "ingredients": [
+        "Leche",
+        "Crema",
+        "Matcha",
+        "Azúcar"
+      ],
+      "allergens": [
+        "Lácteos"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    },
+    {
+      "id": "platano",
+      "category": "postres",
+      "name": "Plátano tempura",
+      "description": "Plátano crujiente, miel y una bola de helado de vainilla.",
+      "portion": "180 g",
+      "price": 85,
+      "ingredients": [
+        "Plátano",
+        "Harina de trigo",
+        "Huevo",
+        "Miel",
+        "Helado de vainilla con leche"
+      ],
+      "allergens": [
+        "Trigo",
+        "Huevo",
+        "Lácteos"
+      ],
+      "vegetarian": true,
+      "spicy": 0,
+      "raw": false,
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Brand from '../components/Brand.astro';
+import Icon from '../components/Icon.astro';
+import { business, path } from '../lib/content';
+---
+<Layout title={`El menú, a un escaneo · ${business.name}`}>
+  <main id="main" class="qr-main container">
+    <a class="text-link qr-back" href={`${path()}#carta`}>← Volver al menú</a>
+    <div class="qr-intro"><p class="eyebrow">GUÁRDALO. COMPÁRTELO. DISFRÚTALO.</p><h1>El menú,<br /><em>a un escaneo.</em></h1><p>Escanea con la cámara de tu celular para explorar la carta. Sin descargar aplicaciones.</p></div>
+    <article class="qr-card" aria-label="Tarjeta imprimible del menú">
+      <Brand /><h2>Tu próximo antojo<br />empieza aquí.</h2><p>Escanea para ver el menú</p>
+      <img class="qr-code" src={path('qr/menu.svg')} alt={`Código QR para abrir el menú de ${business.name}: ${business.url}`} width="400" height="400" />
+      <p class="qr-url"><a href={business.url}>{business.url.replace('https://', '')}</a></p>
+      {business.demo && <p class="qr-demo">Menú de demostración · Restaurante ficticio<br />No se reciben pedidos ni pagos.</p>}
+    </article>
+    <div class="qr-actions"><a class="button button-dark" href={path('qr/menu.png')} download><Icon name="download" size={17} />Descargar PNG</a><a class="button button-outline" href={path('qr/menu.svg')} download><Icon name="download" size={17} />Descargar SVG</a><button class="button button-outline" id="print-qr" type="button"><Icon name="print" size={17} />Imprimir tarjeta</button></div>
+    <p class="qr-explanation">Este código abre siempre la misma dirección. El contenido del menú puede actualizarse sin cambiar el QR, mientras se conserve esa dirección.</p>
+  </main>
+  <script>document.getElementById('print-qr')?.addEventListener('click', () => window.print());</script>
+</Layout>

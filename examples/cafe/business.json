@@ -1,0 +1,32 @@
+{
+  "name": "Bruma",
+  "descriptor": "Café & repostería",
+  "tagline": "Una pausa rica. A tu manera.",
+  "headline": [
+    "Una pausa rica.",
+    "A tu manera."
+  ],
+  "description": "Café, té y un bocado dulce para acompañar tu momento.",
+  "locale": "es-MX",
+  "currency": "MXN",
+  "url": "https://example.org/cafe-demo/",
+  "demo": true,
+  "demoNotice": "Demostración · Negocio, imágenes y precios de ejemplo",
+  "contact": {
+    "phone": null,
+    "address": null,
+    "hours": null
+  },
+  "hero": {
+    "image": "images/matcha.png",
+    "productId": "pastel-matcha",
+    "note": "Una pausa y algo rico.",
+    "alt": "Cheesecake de matcha ilustrativo en cerámica"
+  },
+  "theme": {
+    "paper": "#f4f1eb",
+    "ink": "#26352f",
+    "accent": "#355f4d",
+    "accentSoft": "#dce8dd"
+  }
+}

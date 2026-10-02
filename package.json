@@ -1,0 +1,35 @@
+{
+  "name": "menu-qr-base",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check && node scripts/validate-menu.mjs",
+    "build": "npm run check && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "qr": "node scripts/generate-qr.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "demo:check": "node scripts/check-template.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "5.3.0",
+    "@fontsource/instrument-serif": "5.3.0",
+    "astro": "7.3.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.19.1",
+    "agent-browser": "0.38.2",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "qrcode": "^1.5.4",
+    "typescript": "~5.9.3"
+  }
+}

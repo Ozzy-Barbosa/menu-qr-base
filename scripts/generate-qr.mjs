@@ -1,0 +1,18 @@
+import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
+import QRCode from 'qrcode';
+import jsQR from 'jsqr';
+import { PNG } from 'pngjs';
+const business = JSON.parse(readFileSync(new URL('../src/data/business.json', import.meta.url), 'utf8'));
+const url = new URL(business.url);
+if (url.protocol !== 'https:') throw new Error('El QR exige una URL HTTPS.');
+const destination = new URL('../public/qr/', import.meta.url);
+mkdirSync(destination, { recursive: true });
+const options = { errorCorrectionLevel: 'M', margin: 4, width: 1200, color: { dark: '#000000', light: '#ffffff' } };
+const png = await QRCode.toBuffer(business.url, options);
+const decoded = PNG.sync.read(png);
+const result = jsQR(new Uint8ClampedArray(decoded.data), decoded.width, decoded.height);
+if (result?.data !== business.url) throw new Error('El QR no corresponde a la URL configurada.');
+writeFileSync(new URL('menu.png', destination), png);
+writeFileSync(new URL('menu.svg', destination), await QRCode.toString(business.url, { ...options, type: 'svg' }));
+writeFileSync(new URL('destination.json', destination), JSON.stringify({ url: business.url, decoded: result.data, verification: 'Decodificación digital con jsQR; no equivale a un escaneo físico.' }, null, 2) + '\n');
+console.log(`QR generado y decodificado correctamente: ${result.data}`);

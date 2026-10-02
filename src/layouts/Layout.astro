@@ -1,0 +1,50 @@
+---
+import '@fontsource-variable/manrope';
+import '@fontsource/instrument-serif/latin-400.css';
+import '@fontsource/instrument-serif/latin-400-italic.css';
+import '../styles/global.css';
+import Brand from '../components/Brand.astro';
+import Icon from '../components/Icon.astro';
+import { business, path, photos } from '../lib/content';
+interface Props { title?: string; description?: string; }
+const { title = `${business.name} · ${business.descriptor}`, description = business.description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, new URL(business.url).origin).href;
+const ogImage = new URL(photos[business.hero.image].large, business.url).href;
+---
+<!doctype html>
+<html lang={business.locale} style={`--paper:${business.theme.paper};--ink:${business.theme.ink};--accent:${business.theme.accent};--accent-soft:${business.theme.accentSoft}`}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {business.demo && <meta name="robots" content="noindex, follow" />}
+    <meta name="theme-color" content={business.theme.paper} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={path('favicon.svg')} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={business.locale.replace('-', '_')} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    {business.demo && <div class="demo-bar"><span class="demo-dot"></span>{business.demoNotice}</div>}
+    <header class="site-header container">
+      <a href={path()} aria-label={`${business.name}, inicio`} class="brand-link"><Brand /></a>
+      <nav aria-label="Navegación principal">
+        <a href={`${path()}#carta`} class="header-menu">Nuestro menú <Icon name="arrow" size={16} /></a>
+        <a href={path('qr/')} class="qr-link"><Icon name="qr" size={18} /><span>Menú QR</span></a>
+      </nav>
+    </header>
+    <slot />
+    <footer class="site-footer container">
+      <div class="footer-top"><a href={path()} aria-label={`${business.name}, inicio`} class="brand-link"><Brand /></a><p>Buenos momentos.<br /><span>Un bocado a la vez.</span></p><a href={path('qr/')} class="text-link">Llévate el menú <Icon name="diagonal" size={19} /></a></div>
+      {(business.contact.phone || business.contact.address || business.contact.hours) && <div class="contact-line">{business.contact.phone && <a href={`tel:${business.contact.phone}`}>{business.contact.phone}</a>}{business.contact.address && <span>{business.contact.address}</span>}{business.contact.hours && <span>{business.contact.hours}</span>}</div>}
+      <div class="footer-bottom"><span>{business.demo ? 'Un restaurante imaginario. Una experiencia para explorar.' : business.descriptor}</span><span>{business.demo ? 'Demo de menú digital' : business.name} · {business.currency}</span></div>
+    </footer>
+  </body>
+</html>
